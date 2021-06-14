@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guest List</title>
+        <link rel="stylesheet" href="style.css">
+        <script href="main.js"></script>
+    </head>
+    <body>
+        <h1><b>STUDENT/GUEST List</b></h1>
+        <hr>
+        <h2>*Add Names*</h2>
+        <span>
+            <input id="submit_input" type="text" placeholder="Enter Names">
+            <button onclick="submit()">SUBMIT</button>
+        </span>
+
+        <hr>
+
+        <label id="label_display"></label>
+
+        <hr>
+
+        <h2>*List*</h2>
+        <button onclick="show()">SHOW</button>
+        <br>
+        <label id="unsorted_list"></label>
+
+        <hr>
+
+        <h2>*Sorted List*</h2>
+        <button onclick="sorted_list()">SHOW SORTED LIST</button>
+        <br>
+        <label id="sorted_list"></label>
+
+        <hr>
+
+        <h2>*Search*</h2>
+        <input id="search_input" type="text" placeholder="Search Name">
+        <button onclick="search()">SEARCH</button>
+        <label id="search_name"></label>
+    </body>
+</html>
